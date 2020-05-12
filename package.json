@@ -1,0 +1,9 @@
+{
+  "name": "mapfield",
+  "description": "Map field for SilverStripe iserforms module",
+  "main": "./client/src/boot/index.js",
+  "author": "Ian Simpson, The Logic Studio",
+  "engines": {
+    "node": ">=10.x"
+  }
+}
