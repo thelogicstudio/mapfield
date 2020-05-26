@@ -9,6 +9,10 @@
             'Active'  => 'Boolean',
         ];
         
+        private static $defaults = [
+            'Active'  => true
+        ];
+        
         private static $has_many = [
             'LatLongs' => LatLong::class,
         ];
