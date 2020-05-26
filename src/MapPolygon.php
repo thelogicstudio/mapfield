@@ -4,6 +4,11 @@
     use SilverStripe\ORM\DataObject;
 
     class MapPolygon extends DataObject {
+        
+        private static $db = [
+            'Active'  => 'Boolean',
+        ];
+        
         private static $has_many = [
             'LatLongs' => LatLong::class,
         ];
