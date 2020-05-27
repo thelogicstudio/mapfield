@@ -46,7 +46,7 @@
          */
         public function getFormField()
         {
-            $field = MapField::create($this->Name);
+            $field = MapField::create($this->Name, $this->Title);
             $field->setDefaultLatLong($this->Latitude, $this->Longitude);
 
             $this->doUpdateFormField($field);
