@@ -32,7 +32,7 @@
         public function getFormattedValue()
         {
 
-            return false;
+            return $this->dbObject('Value');
         }
 
         /**
