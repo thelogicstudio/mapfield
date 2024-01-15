@@ -1,6 +1,13 @@
 {
     "name": "thelogicstudio/mapfield",
     "description": "Map field for SilverStripe userforms module",
+    "authors": [
+        {
+            "name": "The Logic Studio",
+            "homepage": "https://logicstudio.nz",
+            "email": "hello@logicstudio.nz"
+        }
+    ],
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
